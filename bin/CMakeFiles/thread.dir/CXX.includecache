@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cpptest/threadtest/testthread.cpp
+iostream
+-
+unistd.h
+-
+thread.hpp
+/home/cpptest/threadtest/thread.hpp
+
+/home/cpptest/threadtest/thread.cpp
+thread.hpp
+/home/cpptest/threadtest/thread.hpp
+
+/home/cpptest/threadtest/thread.hpp
+pthread.h
+-
+iostream
+-
+
